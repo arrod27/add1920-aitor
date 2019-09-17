@@ -6,3 +6,12 @@ Prueba
 * Entrada 2
 
 > Aclaración
+
+Para código:
+
+```
+git clone
+
+```
+
+![etiqueta_letra](images/letra.jpg)
