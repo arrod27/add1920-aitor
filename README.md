@@ -2,5 +2,5 @@
 
 Prueba
 
-*Entrada 1
-*Entrada 2
+* Entrada 1
+* Entrada 2
