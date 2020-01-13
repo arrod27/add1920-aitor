@@ -15,4 +15,4 @@
 
 ## 4.3 Comprobar que se imprime desde el navegador
 
-![](img/img5.png)
+![](img/img6.png)
