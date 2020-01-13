@@ -1,4 +1,4 @@
-# U4-A1 389DS - OpenSUSE
+# U4-A1 Servicio de directorios por comandos
 
 ## 2.3 Comprobar contenido del DS LDAP
 
@@ -13,6 +13,6 @@
 ![](img/img5.png)
 
 
-## 4.3 Comprobar que se imprime desde el navegador
+## 4.3 Comprobar los usuarios creados
 
 ![](img/img6.png)
