@@ -1,16 +1,27 @@
-# U2-A1 SERVIDOR DE IMPRESIÓN WINDOWS
+# U2-A1 BOT SERVICE
 
-## 1.3 Comprobar que se imprime de forma local
+## 1.4 Entrega
+
+Script del bot:
+
+URL del video: https://www.youtube.com/watch?v=i2ATXLM4Kc0
+
+## 2.4 Entrega
+
+Fichero de configuración del servicio: 
+
+![](img/img3.png)
+
+Parar el servicio:
 
 ![](img/img1.png)
 
-## 2.2 Comprobar que se imprime de forma remota
+Arrancar el servicio:
 
 ![](img/img2.png)
 
+## 3.2 Tareas programadas
 
-## 3.3 Comprobar que se imprime desde el navegador
-
-![](img/img3.png)
+Configuración de crontab:
 
 ![](img/img4.png)
