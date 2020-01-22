@@ -2,7 +2,7 @@
 
 ## 1.4 Entrega
 
-Script del bot:
+Script del bot: https://github.com/arrod27/add1920-aitor/blob/master/u5/a2/bot-demo.rb
 
 URL del video: https://www.youtube.com/watch?v=i2ATXLM4Kc0
 
