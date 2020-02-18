@@ -122,13 +122,13 @@ Si comprobamos las imágenes, aparece la que acabamos de crear a partir del cont
 
 ## 4. Crear contenedores a partir de nuestra imagen
 
-###4.1 Crear contenedor con Nginx
+### 4.1 Crear contenedor con Nginx
 
 Iniciamos el contenedor que creamos en el apartado anterior.
 
 ![](img/img27.png)
 
-###4.2 Comprobamos
+### 4.2 Comprobamos
 
 Ejecutamos el comando *docker ps* para ver los contenedores que se encuentran en ejecución en este momento. Vemos que aparece el creado anteriormente con nginx. Entre los detalles, podemos observar que hay una redirección de puertos. Esto es lo que usaremos para acceder a este contenedor.
 
@@ -142,9 +142,35 @@ Como hicimos anteriormente, paramos y eliminamos el contenedor
 
 ![](img/img30.png)
 
-###4.3 Migrar la imagen a otra máquina
+### 4.3 Migrar la imagen a otra máquina
 
+Ahora exportaremos uno de los contenedores para poder enviarlo a un compañero. Esto lo haremos con el siguiente comando.
 
+![](img/img31.png)
+
+Si vamos al escritorio, vemos que se ha generado un archivo comprimido con nuestro identificador.
+
+![](img/img32.png)
+
+Intercambiaremos nuestro archivo con el de un compañero, y una vez tengamos el nuevo, lo importaremos a nuestra máquina.
+
+![](img/img33.png)
+
+Si comprobamos ahora las imágenes, vemos que aparece la que acabamos de importar de nuestro compañero.
+
+![](img/img34.png)
+
+Creamos un contenedor a partir de la imagen que nos ha dado nuestro compañero.
+
+![](img/img85.png)
+
+Vemos los contenedores que están en ejecución y nos fijamos en el puerto de nuestra máquina que redirecciona al contenedor.
+
+![](img/img86.png)
+
+Entramos por ese puerto y vemos que se encuentra la página con el nombre del compañero que nos ha cedido su contenedor.
+
+![](img/img87.png)
 
 ## 5. Dockerfile
 
@@ -192,14 +218,22 @@ Si accedemos al archivo *holamundo* aparecerá el creado anteriormente que conti
 
 ### 5.4 Usar imágenes ya creadas
 
+Creamos una nueva carpeta llamada *docker27b*, y dentro de ella situamos los mismos archivos que anteriormente.
 
+![](img/img48.png)
 
+En este caso, modificaremos el archivo *Dockerfile* introduciendo en su interior el siguiente contenido:
 
+![](img/img45.png)
 
+Creamos la imagen de igual manera que en el resto de la práctica:
 
+![](img/img47.png)
 
+Ahora a partir de la imagen generamos el contenedor
 
+![](img/img48.png)
 
+Accedemos al contenedor, y vemos que se ha creado y funciona correctamente.
 
-
-
+![](img/img49.png)
